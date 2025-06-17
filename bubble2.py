@@ -9,7 +9,7 @@ g = n - 1
 while g > 0:
     s = 0
     while s < g:
-        if Su[s] > Su[s + 1]:
+        if Su[s] < Su[s + 1]:
             Hozon = Su[s]
             Su[s] = Su[s + 1]
             Su[s + 1] = Hozon
