@@ -4,13 +4,13 @@ n = len(Su)
 print(f"元の配列: {Su}")
 print(f"データ件数：{n}件")
 
-# バブルソートの実行
-for g in range(_____, 0, -1):
-    for j in range(0, ___, 1):
-        if Su[j] ___ Su[j + 1]:
+# バブルソートの実行（バイブコーディング）
+for g in range(n - 1, 0, -1):
+    for j in range(0, g, 1):
+        if Su[j] < Su[j + 1]:
             Hozon = Su[j]
-            Su[j] = _____
+            Su[j] = Su[j + 1]
             Su[j + 1] = Hozon
 
-for k in range(___):
+for k in range(n):
     print(f"Su({k}): {Su[k]}")
